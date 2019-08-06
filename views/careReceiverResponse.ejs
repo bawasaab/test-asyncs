@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                font-family: "Lato", sans-serif;
+                margin: 0 auto;
+            }
+            .oueter {
+                height: 100vh;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                background: linear-gradient(135deg, #5bc4f2 0%,
+                #aa5ef2 35%,
+                #e38379 62%,
+                #ecae34 100%);
+            }
+            .logo-msg{
+                width: m auto;
+                background: #fff;
+                margin-bottom: 60px;
+                padding: 15px;
+                border-radius: 30px;
+            }
+            @media screen and (max-height: 450px) {
+            }
+        </style>
+    </head>
+    <body>
+        <div  class="oueter">
+            <div class="content">
+                <div class="logo-msg">
+                    <img src="https://stgsp1.appsndevs.com/Championsfarm/igethappy/assets/images/logo-white.svg"  alt="logo">
+                </div>
+                <h1 style="font-size: 45px;">Welcome to igethappy</h1>
+                <p style="font-size: 25px;"><%= result.message %></p>
+            </div>
+        </div>
+    </body>
+</html>
