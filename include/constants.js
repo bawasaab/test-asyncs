@@ -13,7 +13,7 @@ module.exports = {
     postFullProfilePath: 'http://localhost:3000/uploads/community_posts/',
     documentPath: 'public/uploads/documents',
     twillioCredentials: {
-        accountSid: 'AC9eee1a3621c7d027645a72e3056c438e',
-        authToken: 'c671a1a8258b8e11ae0a70f6121614a3'
+        accountSid: 'xxxxxxxxxxxxxxxxxx',
+        authToken: 'xxxxxxxxxxxxxxxxxx'
     }
 };
